@@ -3,10 +3,10 @@ var music = require('./music.json');
 var bps = 120 / 60;
 
 module.exports = function (t) {
-    var note = music[Math.floor(t * bps * 4) % music.length];
+    var note = music[Math.floor(t * bps * 2) % music.length];
     var sum = 0;
     for (var i = 0, l = note.length; i < l; i++) {
-        var x = notes[note[i]];
+        var x = notes[note[i]] || 0;
         sum += 0
             + sin(x / 2) * 0.2
             + sin(x / 2 + 2) * 0.2
