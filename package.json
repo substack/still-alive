@@ -10,12 +10,6 @@
     "audio-notes": "~0.1.0",
     "baudio": "~1.1.3"
   },
-  "devDependencies": {
-    "tape": "~1.0.4"
-  },
-  "scripts": {
-    "test": "tape test/*.js"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/substack/still-alive.git"
