@@ -20,3 +20,10 @@ npm install -g still-alive
 ```
 
 then type `still-alive` to play the music.
+
+Requires [SoX](http://sox.sourceforge.net/):
+
+```
+brew install sox
+```
+or download from [official website](http://sox.sourceforge.net/).
